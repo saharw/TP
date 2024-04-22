@@ -32,5 +32,3 @@ export dest_dir
 
 
 find "$src_dir" -type f -exec bash -c 'copy_file "$0" "$dest_dir"' {} \;
-
-echo "succes"
