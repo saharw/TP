@@ -13,20 +13,22 @@
 **Выходная директория:** `/home/output_dir`
 
 **Структура /home/input_dir до копирования:**
+```
 input_dir/
 ├── a.txt
 ├── dir2/
 │ └── b.txt
 └── dir3/
 └── c.txt
-
+```
 
 **Структура /home/output_dir после работы скрипта:**
+```
 output_dir/
 ├── a.txt
 ├── b.txt
 └── c.txt
-
+```
 
 
 
